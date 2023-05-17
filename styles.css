@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    border: 1px solid black;
+    margin: 0;
+    font-size: 1rem;
+    font-family: "lato" sans-serif;
+    font-weight: 400;
+    color: rgb(251, 249, 249);
+}
+.part1{
+    justify-content:center;
+    background-image: url("https://dosgames.ru/public/images/articles/743/nout1.jpg");
+
+}
+.part1
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+
+}
+.textb,.part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.textb{
+    
+    color: white;
+    font-size: 62px;
+    padding: 1rem;
+
+}
+b{
+    font-size: 10px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 20px;
+}
+.changebg{
+    background-color: black;
+    padding: 1rem  1.5rem;
+}
+.feature .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.feature .card{
+    color: black;
+    background-color:wheat;
+    width: 30%;
+}
+.inline-block{
+    width: 80%;
+    background-color: rgb(113, 240, 39);
+    margin:0 auto;
+   
+}
+.box{
+    display: inline-block;
+    width: 46.6%;
+    background-color: rgb(196, 22, 22);
+    padding: 20.1px;
+}
+.box1{
+    display: inline-block;
+    width: 46.6%;
+    
+    background-color: rgb(54, 114, 19);
+    padding: 20.1px;
+}
+img{
+    width: 100%;
+}
